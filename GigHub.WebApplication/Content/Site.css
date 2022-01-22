@@ -75,10 +75,8 @@ body {
 }
 
 .btn {
-    font-size: 17px;
     -ms-border-radius: 9px;
     border-radius: 9px;
-    padding: 7px 20px;
 }
 
 /* Page-level styles*/
@@ -128,4 +126,8 @@ body {
 
 .gigs > li .details .genre {
     font-size: 1.4rem;
+}
+
+.ms-1 {
+    margin-left: 10px;
 }
