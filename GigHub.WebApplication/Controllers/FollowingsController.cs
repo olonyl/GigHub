@@ -15,7 +15,6 @@ namespace GigHub.WebApplication.Controllers
         {
             _context = new ApplicationDbContext();
         }
-
         [HttpPost]
         public IHttpActionResult Follow(FollowingDto dto)
         {

@@ -27,7 +27,10 @@
             <span class="genre">
                 @gig.Genre.Name
             </span>
-            <button data-gig-id="@gig.Id" class="btn btn-default btn-sm pull-right ms-1 js-toggle-attendance">Going ?</button>
+            @if (Model.ShowActions)
+            {
+                <button data-gig-id="@gig.Id" class="btn btn-default btn-sm pull-right ms-1 js-toggle-attendance">Going ?</button>
+            }
         </div>
     </li>
     }
